@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.fl{
+     float:left;
+}
+.fr{
+     float:right;
+}
+.all{
+	border: 1px solid red;
+	width: 1190px;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	width: 1190px;
+	background: #28D0B7;
+}
+.nav span{
+	color: white;
+	margin-left: 330px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 30px;
+}
+.menu{
+	margin-left: 40px;
+}
+.search{
+	margin-right: 40px;
+}
+.banner{
+	position: relative;
+}
+.banner-but{
+	margin: 0 auto;
+	position: absolute;
+	bottom: 10px;
+	left:530px;
+}
+.banner-but input{
+	margin-left: 15px;
+	opacity: 0.9;
+	cursor: pointer;
+	border: 1px solid #B7B7B7;
+	background: #B7B7B7;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	outline: none;
+}
+.banner-but input:nth-of-type(1){
+	background: white;[]
+}
+.shortcut{
+	width: 930px;
+	margin: 0 auto;
+}
+.shortcut a{
+	text-align: center;
+	font-size: 25px; 
+	color: #333;
+}
+.shortcut a img{
+	width: 150px;
+	height: 150px;
+}
+.shortcut1,.shortcut2,.shortcut3,.shortcut4,.shortcut5,.shortcut6{
+	width: 150px;
+	float: left;
+	padding: 80px;
+}
+.bg{
+	background: #eee;
+	width: 100%;
+	height: 50px;
+}
+.news{
+	width: 1190px;
+}
+.news div a{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: 700;
+	font-size: 30px;
+}
+.news1{
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 60px;
+	position: relative;
+}
+.news2{
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 60px;
+	position: relative;
+}
+.new1-title{
+	background: red;
+	border: 1px solid red;
+	height: 30px;
+	width: 520px;
+	position: absolute;
+	
+}
+
